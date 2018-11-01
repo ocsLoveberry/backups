@@ -1,0 +1,52 @@
+1.mjpg-streamerで動画垂れ流し
+2.OpenCV（とか）で処理文
+**
+microsoftのfaceAPI使えないか？
+**
+
+
+
+url
+http://d.hatena.ne.jp/seinzumtode/20160712/1468317007
+
+RaspberryPiとOpenCVで顔認識してパフォーマンスも改善してみる
+http://takuseno.hatenablog.com/entry/2016/09/26/230512
+
+
+
+登下校確認
+・親向けのセキュリティ面どうするか
+・ID,pass?
+・子供経由で親に？
+・忘れたときにPCから登下校を入力できるように
+	・一定回数忘れたらペナルティ
+		（欠席との区別方法→その日に欠席でもなく、登下校もしてなかった際に次の日に担任に通知）
+		・始末書、面談
+・画面（３種）カレンダーの表示→そこから日選択したい
+	・親
+	・先生（担任するクラス）
+		・行事などで全員休みなど設定できるように（チェックボックスで個人の判定かえることも必須）
+	・管理
+		・学校として休みの設定（設定後担任が特定生徒はずせるように、夏休みの補習？とか）
+・通知
+	・前日の生徒の記録がなかった場合、朝に通知
+
+・フラグ
+	・登校
+	・下校
+	・欠席
+	・公欠
+	・何かしらの休暇日
+
+https://docs.google.com/presentation/d/160Bzvk6_BpoM9S9ZyO3fjhDSPqlwe80I4FbDWlK4rgw/edit?usp=sharing
+
+
+Pepperの役割
+・名札つけろと叫ばせる
+AquesTalk Pi
+Open JTalk
+VoiceText
+・職員室での邪魔
+なにもしなくていい
+・運ぶ手間
+なくなる
